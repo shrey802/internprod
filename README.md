@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## This project is my assignment for the front-end developer internship application round.
+# Image Gallery built using Pexels API, Nextjs 13, and Typescript.
+Features are like feature for images, infinite render, search, and categories.
 
 ## Getting Started
 
