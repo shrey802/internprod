@@ -1,0 +1,3 @@
+.blur-image {
+    filter: blur(20px); /* Adjust the blur intensity as needed */
+  }

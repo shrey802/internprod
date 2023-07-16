@@ -5,6 +5,7 @@
 'use client'
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import './globals.css'
 import { createClient } from "pexels";
 const client = createClient("he2jl8b9JSBTrxZp9QbCc708v5dJYm8srZcUatykMDtFEvblABo8gBMk");
 const perPage = 16;
@@ -145,6 +146,7 @@ function reload() {
               alt={pic.alt}
               height={200}
               width={200}
+              onLoad={(e:any) => e.target.classList.remove('blur-image')}
               onClick={() => handleLike(pic.id)} // Add the onClick event handler to toggle the liked property
               style={{ cursor: "pointer" }} // Add cursor style to indicate the image is clickable
             />
