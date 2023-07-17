@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Image Gallery built using Pexels API, Nextjs 13, and Typescript.
 Features are like feature for images, infinite render, search, and categories.
 
+# In this project categories are hard-coded because API didn't provide any categories. So I'm randomly assigning categories.
+
 ## Getting Started
 
 First, run the development server:
